@@ -1,0 +1,64 @@
+
+{
+  "name": " TFC  𝗖𝗛𝗔𝗧 𝗚𝗣𝗧", 
+  "logo": "https://te.legra.ph/file/bd049a544249ac936fa48.jpg",
+  "keywords": [
+    "telegram", "CHATGPTBOT",
+    "python",
+    "pyrogram",
+    "WCGKING"   
+  ],
+  "stack": "heroku-20",
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "15"
+      }
+    }
+  ],
+  "env": {
+    "BOT_TOKEN": { "description": "ᴀ ʙᴏᴛ'ꜱ ᴛᴏᴋᴇɴ ꜰʀᴏᴍ ʙᴏᴛꜰᴀᴛʜᴇʀ",
+      "required": true
+    },
+    "OWNER_USERNAME": {
+      "description": "ʏᴏᴜʀ ᴜꜱᴇʀɴᴀᴍᴇ ᴡɪᴛʜᴏᴜᴛ @",
+      "required": true
+    },
+    "OPENAI_KEY": {
+      "description": "𝗌𝖾𝖺𝗋𝖼𝗁 𝗈𝗇 𝖼𝗁𝗋𝗈𝗆𝖾 https://platform.openai.com/account/api-keys ",
+      "required": true
+    },
+    "BOT_USERNAME": {
+      "description": "ʙᴏᴛ ᴜꜱᴇʀɴᴀᴍᴇ ᴡɪᴛʜᴏᴜᴛ @",
+      "required": true
+    },
+    "BOT_NAME": {
+      "description": "ᴀ ɴᴀᴍᴇ ꜰᴏʀ ʏᴏᴜʀ ᴍᴜꜱɪᴄ ʙᴏᴛ. ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ꜱᴘᴇᴄɪᴀʟ ᴄʜᴀʀᴀᴄᴛᴇʀꜱ ʙᴏᴛ ᴋᴏ ᴊʜᴀᴀᴛ ꜰᴀʀᴀᴋ ɴɪ ᴘᴀᴅᴇɢᴀ.",
+      "required": true
+    },
+    "SUPPORT_GRP": {
+      "description": "ɢʀᴏᴜᴘ ɴᴀᴀᴍᴇ ᴡɪᴛʜᴏᴜᴛ @",
+      "required": true
+    },
+    "STKR": {
+      "description": "ᴀᴅᴅ ʏᴏᴜʀ ꜱᴛɪᴋᴇʀ", "required": true
+    },
+    "START_IMG": {
+      "description": "ᴛʜᴇ ᴘɪᴄ ᴡʜɪᴄʜ ᴡɪʟʟ ʙᴇ ꜱʜᴏᴡɴ ᴡʜᴇɴ ʏᴏᴜ /ꜱᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ɪɴ ᴘʀɪᴠᴀᴛᴇ.",
+      "required": true
+    },
+    "UPDATE_CHNL": {
+      "description": "ᴄʜᴀɴɴᴇʟ ɴᴀᴀᴍᴇ ᴡɪᴛʜᴏᴜᴛ @",
+      "required": true
+    },
+    "API_ID": { "description": "ɢᴇᴛ ᴛʜɪꜱ ᴠᴀʟᴜᴇ ꜰʀᴏᴍ https://my.telegram.org",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "ɢᴇᴛ ᴛʜɪꜱ ᴠᴀʟᴜᴇ ꜰʀᴏᴍ https://my.telegram.org",
+      "required": true
+    }
+  },
+  "repository": "https://github.com/itsdevxd/TFC-CHATGPT"
+}
