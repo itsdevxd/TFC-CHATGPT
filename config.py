@@ -11,6 +11,6 @@ STKR = os.environ.get("STKR","CAACAgUAAxkBAAJaTmZUT-Agrn4__yyMGv5PvpJ8QSOfAAJHDA
 BANNED_USERS=os.environ.get("BANNED_USERS",None)
 UPDATE_CHNL = os.environ.get("UPDATE_CHNL","https://t.me/TFCbots")
 OWNER_USERNAME = os.environ.get("OWNER_USERNAME","Nikk_xd")
-SUDO=os.environ.get("SUDO","5828367538" ,"5680701245")
+SUDO=os.environ.get("SUDO","5828367538")
 SUPPORT_GRP = os.environ.get("SUPPORT_GRP","https://t.me/TheFriendsChatting")
 BARD_TOKEN=os.environ.get("BARD_TOKEN","")
